@@ -19,7 +19,7 @@ categorical_cols = ['workclass', 'marital-status', 'occupation', 'relationship',
 numerical_cols = ['age', 'fnlwgt', 'educational-num', 'capital-gain', 'capital-loss', 'hours-per-week']
 training_cols_order = numerical_cols + categorical_cols
 
-st.title("Adult Income Prediction App")
+st.title("Employee Salary Prediction")
 st.header("Enter Features for Prediction")
 
 age = st.number_input("Age", min_value=17, max_value=75, value=30)
